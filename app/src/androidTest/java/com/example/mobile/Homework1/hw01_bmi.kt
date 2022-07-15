@@ -11,8 +11,8 @@ fun main(){
     """)
 }
 
-//hei1 => ส่วนสูง(cm) ,hei2 => ส่วนสูง(m) ,wei => น้ำหนักตัว(kg)
-fun bmiFunction(hei1: Float,wei: Float): Float {
-    val hei2 = hei1/100.00f
-    return wei/(hei2*hei2)
+//height รับค่าจาก Functionmain ,height1 => ส่วนสูง(m) ,weight => น้ำหนักตัว(kg)
+fun bmiFunction(height: Float,weight: Float): Float {
+    val height1 = height/100.00f
+    return weight/(height1*height1)
 }
