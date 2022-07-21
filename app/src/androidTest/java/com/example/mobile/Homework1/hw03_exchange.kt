@@ -33,10 +33,9 @@ fun calculatorFunction(money : Int) {
         }
     }
     if(money1 >= 50){
-        if(money1 % 20 == 0){
-        }else{
-        m50 = money1/50
-        money1%=50
+        if(money1 % 20 != 0){
+            m50 = money1/50
+            money1%=50
         }
     }
     if(money1 >= 20){
