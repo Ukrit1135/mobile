@@ -2,8 +2,8 @@ package com.example.mobile.Homework1
 
 fun main() {
     print("Enter millisecond : ")
-    val timemilli = readLine()!!.toLongOrNull()
-    CaltimerFunction(timemilli!!)
+    val timemilli = readLine()!!.toLong()
+    CaltimerFunction(timemilli)
 }
 
 fun CaltimerFunction (timemilli:Long) {
@@ -50,8 +50,7 @@ fun CaltimerFunction (timemilli:Long) {
         }
     }else
         milli1 = timemilli1
-    println("""
------------------------------
+println("""-----------------------------
 Year        : $year1
 Month       : $month1
 Day         : $day1
