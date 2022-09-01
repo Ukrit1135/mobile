@@ -6,7 +6,7 @@ fun main(){
 }
 
 //money : Int => รับค่า money จาก mainFunction
-fun calculatorFunction(money : Int) {
+fun calculatorFunction(money: Int) {
 
     var m1000 = 0           //แบงค์ 1000
     var m500 = 0            //แบงค์ 500
